@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(27, 25, 25, 0.869);
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.button-container{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: inset 0px 20px 10px -20px rgba(17, 16, 16, 0.869);
+}
+#button{
+    outline: none;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    background: linear-gradient(to top, rgb(120, 118, 118), rgb(169, 164, 164));
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: inset 0px 20px 10px -20px rgba(21, 21, 21, 0.869), 0px 20px 10px -6px rgba(24, 24, 24, 0.84) ;
+}
+#button:hover{
+    background: linear-gradient(to bottom, rgb(120, 118, 118), rgb(169, 164, 164));
+}
+#button:active{
+    transform: translateY(2px);
+    box-shadow: 0px 15px 10px -6px rgba(24, 24, 24, 0.5);
+}
